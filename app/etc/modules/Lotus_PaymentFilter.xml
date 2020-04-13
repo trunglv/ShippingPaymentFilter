@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Lotus_PaymentFilter>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Lotus_PaymentFilter>
+    </modules>
+</config>

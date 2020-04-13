@@ -1,0 +1,20 @@
+<layout>
+    <adminhtml_lotus_payment_rule_index>
+        <reference name="content">
+            <block type="lotus_paymentfilter/adminhtml_payment_rule"></block>
+        </reference>
+    </adminhtml_lotus_payment_rule_index>
+
+    <adminhtml_lotus_payment_rule_edit>
+        <reference name="head">
+            <action method="addJs"><script>mage/adminhtml/rules.js</script></action>
+            <action method="addJs"><script>mage/adminhtml/variables.js</script></action>
+           
+            <action method="setCanLoadExtJs"><flag>1</flag></action>
+            <action method="setCanLoadRulesJs"><flag>1</flag></action>
+        </reference>
+        <reference name="content">
+            <block type="lotus_paymentfilter/adminhtml_payment_rule_edit"></block>
+        </reference>
+    </adminhtml_lotus_payment_rule_edit>
+</layout>

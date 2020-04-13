@@ -1,0 +1,40 @@
+<config>
+    <menu>
+        <sales>
+            <children>
+                <lotus_paymentfilter translate="title" module="lotus_paymentfilter">
+                    <sort_order>15</sort_order>
+                    <title>Payment and shipping method Filter Rules</title>
+                    <action>adminhtml/lotus_payment_rule</action>
+                </lotus_paymentfilter>
+            </children>
+        </sales>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <sales>
+                        <children>
+                            <lotus_paymentfilter translate="title" module="lotus_paymentfilter">
+                                <title>Payment and shipping method Filter Rules</title>
+                                <sort_order>40</sort_order>
+                            </lotus_paymentfilter>
+                        </children>
+                    </sales>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <lotus_paymentfilter>
+                                        <title>Lotus Breath - Payment Filter</title>
+                                    </lotus_paymentfilter>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
